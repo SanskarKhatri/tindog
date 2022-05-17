@@ -46,3 +46,44 @@ body{
     width: 60%;
     transform: rotate(10deg);
 }
+
+/* feature */
+.feature-cont{
+    padding: 7% 15%;    
+}
+.feature-icons {
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+.feature-icons:hover{
+    color: #ff4c68;
+}
+.feature-col {
+    text-align: center;
+    padding: 5%;
+    line-height: 2rem;
+}
+.feature-col h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.feature-col p{
+    color: #8f8f8f;
+}
+#testimonials {
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+#press {
+    background-color: #ef8172;
+    text-align:center;
+    padding-bottom: 3%;
+}
