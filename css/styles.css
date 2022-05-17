@@ -72,9 +72,11 @@ body{
 }
 #testimonials {
     color: #fff;
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
+}
+.carousel-item {
+    padding: 7% 15%;
 }
 .testimonial-image {
     width: 10%;
@@ -86,4 +88,19 @@ body{
     background-color: #ef8172;
     text-align:center;
     padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px
+}
+
+/* Pricing */
+#pricing {
+    padding: 100px;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.pricing-btn {
+    width: 100%;
 }
