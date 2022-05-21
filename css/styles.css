@@ -34,7 +34,7 @@ body{
 
 /* download buttons */
 .download-button {
-    margin: 3% 7% 0 0;
+    margin: 3% 7% 3% 0;
 }
 
 
@@ -44,13 +44,15 @@ body{
 }
 .iphone-display {
     width: 60%;
-    transform: rotate(10deg);
+    transform: rotate(25deg);
 }
 
 /* feature */
-.feature-cont{
-    padding: 7% 15%;    
+#features {
+    background-color: #fff;
+    padding: 7% 15%; 
 }
+
 .feature-icons {
     margin-bottom: 1rem;
     color: #ef8172;
@@ -60,7 +62,7 @@ body{
 }
 .feature-col {
     text-align: center;
-    padding: 5%;
+    padding: 4.5%;
     line-height: 2rem;
 }
 .feature-col h3{
@@ -104,4 +106,14 @@ body{
 }
 .pricing-btn {
     width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    #title {
+        text-align: center;
+    }
+    .iphone-display {
+        transform: rotate(0);
+    }
+
 }
