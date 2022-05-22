@@ -7,11 +7,11 @@ body {
 
 /* navbar styles */
 .navbar {
-  padding-bottom: 4.5rem;
+  padding-bottom: 3rem;
 }
 .navbar-brand {
   font-family: "Ubuntu", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 .nav-item {
@@ -25,14 +25,15 @@ body {
 }
 #title-bio {
   font-family: "Montserrat", sans-serif;
-  font-size: 3.5rem;
+  font-size: 300%;
   font-weight: 900;
   line-height: 1.5;
 }
 
 /* download buttons */
 .download-button {
-  margin: 3% 7% 3% 0;
+  font-size: 100%;
+  margin: 2%;
 }
 
 /* phone screen */
@@ -94,10 +95,11 @@ body {
 
 /* Pricing */
 #pricing {
-  padding: 100px;
+  padding: 3% 7%;
   text-align: center;
 }
-.pricing-column {
+.card {
+  background-color: #fae5e5;
   padding: 3% 2%;
 }
 .pricing-btn {
@@ -112,11 +114,8 @@ body {
   text-align: center;
 }
 #cta h3 {
-  font-size: 3rem;
+  font-size: 250%;
   font-weight: 900;
-}
-#cta .download-button {
-  margin: 3% 1%;
 }
 
 /* footer */
@@ -124,7 +123,7 @@ body {
   background-color: #fff;
   text-align: center;
   padding: 3% 15%;
-  font-size: 1.25rem;
+  font-size: 90%;
 }
 .sm {
   margin: 1%;
